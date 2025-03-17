@@ -146,10 +146,10 @@
 
       if (user === "admin" && pass === "1234") {
         localStorage.setItem("userRole", "admin");
-        window.location.href = "index.html";
+        window.location.href = "main.html";
       } else if (user === "user" && pass === "1234") {
         localStorage.setItem("userRole", "user");
-        window.location.href = "index.html";
+        window.location.href = "main.html";
       } else {
         errorMessage.classList.add("show-error");
         setTimeout(() => errorMessage.classList.remove("show-error"), 2000);
